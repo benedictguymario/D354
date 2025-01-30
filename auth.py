@@ -10,7 +10,7 @@ choix = st.radio("Que voulez-vous faire ?", ["Se connecter", "S'inscrire"])
 if choix == "Se connecter":
     if st.button("Se connecter"):
         st.success("Connectez-vous")
-        st.markdown("<meta http-equiv='refresh' content='1;URL=http://localhost:8000'>", unsafe_allow_html=True)
+        st.markdown("<meta http-equiv='refresh' content='1;URL=https://chatecofin.onrender.com'>", unsafe_allow_html=True)
 
 elif choix == "S'inscrire":
     st.subheader(":pencil: Créer un compte")
