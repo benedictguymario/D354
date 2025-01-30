@@ -1,0 +1,11 @@
+chainlit
+langchain-community
+langchain
+chromadb
+sentence-transformers
+google-generativeai
+python-dotenv
+requests
+fastapi
+uvicorn
+sqlite3
