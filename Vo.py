@@ -8,6 +8,7 @@ from dotenv import load_dotenv
 load_dotenv()
 from typing import Optional
 import sqlite3
+port = int(os.getenv("PORT", 8000))
 
 conn = sqlite3.connect("users.db")
 cursor = conn.cursor()
